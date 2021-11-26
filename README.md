@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+Ethereum smart contract to store messages on chain
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
+To run contract
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npx hardhat run scripts/run.js
+
+```
+
+To deploy contract, add network config in hardhat.config.js and run
+```shell
+npx hardhat run scripts/deploy.js
+
 ```
